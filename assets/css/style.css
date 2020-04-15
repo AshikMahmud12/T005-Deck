@@ -1,0 +1,822 @@
+/* Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 10px--->(10/16)*100=62.5% */
+/* using percentage for more useful for responsive site specifically zoom in zoom out */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3;
+    font-size: 1.6rem;
+}
+ul li {
+    list-style-type: none;
+}
+
+/* Heading */
+/* 42/10=4.2rem */
+h1 {
+    font-size: 4.2rem;
+    color: #fff;
+}
+
+/* Reusabble Components */
+
+.row {
+    max-width: 132rem;
+    margin: 0 auto;
+}
+section {
+    padding: 2rem 0;
+}
+h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* Little Description  -Paragraph */
+.little-description {
+    font-size: 1.8rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+}
+h3 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+.box {
+    padding: 1%;
+}
+.box p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    color: black;
+}
+
+/* Header Section */
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+
+    float: left;
+    background-color: black;
+    margin-left: 0;
+}
+
+/* Main Navigation  */
+
+.main-nav {
+    float: left;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.main-nav li:first-child {
+    margin-left: 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: 0.3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background: coral;
+}
+.active {
+    background: rgba(100, 58, 121, 1);
+    border-radius: 0.3rem;
+}
+
+/* Sticky Navigation */
+nav {
+    display: flex;
+    background-color: white;
+
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    padding: 6px;
+    position: sticky;
+    top: 1rem;
+    z-index: 10;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(135, 80, 156, 0.9);
+    padding: 1rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+    background-color: white;
+}
+
+.sticky .main-nav {
+    margin-top: 0.2rem;
+}
+
+/* Mobile Menu */
+
+.mobile-menu {
+    float: right;
+    margin-left: 30rem;
+}
+.mobile-menu span {
+    color: black;
+    font-size: 3rem;
+}
+.mobile-menu span {
+    cursor: pointer;
+}
+.overlay {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+.overlay a {
+    text-decoration: none;
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #999;
+    padding: 1rem 0;
+}
+.overlay a:hover {
+    color: #fff;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    font-size: 6rem;
+}
+.sticky .mobile-menu span {
+    margin-top: 0;
+    line-height: 1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9fafc;
+}
+
+.flex-container > div {
+    width: 100%;
+    margin: 2rem;
+
+    text-align: left;
+    line-height: 2rem;
+}
+.flex-container > div h4 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.flex-container > div p {
+    font-size: 1.4rem;
+    margin-top: 0.1rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoFooter {
+    font-size: 4rem;
+}
+
+.copyright {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #868c98;
+}
+.footerNav li {
+    list-style: none;
+}
+.footerNav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 250;
+}
+
+.footerLast {
+    display: flex;
+    justify-content: flex-end;
+    color: #868c98;
+}
+.footerLast li {
+    font-size: 2rem;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.footerLast li a {
+    text-decoration: none;
+    color: #868c98;
+}
+.emailSection {
+    padding: 1rem;
+    display: flex;
+}
+#email {
+    padding: 1rem;
+    width: 19rem;
+}
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    width: 17rem;
+    cursor: pointer;
+}
+
+/* Home Page 2 */
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "showcase showcase top-box-a"
+        "showcase showcase top-box-b";
+}
+
+/* Showcase */
+.showcase {
+    grid-area: showcase;
+    min-height: 400px;
+    background: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+}
+
+.showcase p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
+}
+.top-box1 {
+    grid-area: showcase;
+    min-height: 100px;
+    background: url(/assets/image/driving-home-page-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.top-box .price {
+    font-size: 2.5rem;
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+.item2 {
+    grid-area: menu1;
+}
+.item3 {
+    grid-area: main;
+}
+.item4 {
+    grid-area: right;
+}
+
+.item6 {
+    grid-area: footer1;
+}
+.item7 {
+    grid-area: menu2;
+    background-color: #ff565d;
+    color: white;
+    padding: 1rem;
+}
+.item7 p {
+    font-size: 1.5rem;
+    font-weight: 10;
+}
+.item8 {
+    grid-area: menu3;
+}
+.item9 {
+    grid-area: footer2;
+}
+.item10 {
+    grid-area: footer4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "footer4 footer4 footer4 footer4 footer4 footer4 menu1  menu1"
+        "footer4 footer4 footer4 footer4 footer4 footer4 menu2 menu2"
+        "main main right right right right menu2  menu2"
+        "main main footer1 footer1 footer2 footer2 menu3 menu3";
+    grid-gap: 15px;
+    background-color: #2196f3;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 0 0;
+    font-size: 30px;
+}
+/* Home Page 3 */
+/* First Row */
+.homePageC .card1 {
+    background-color: white;
+    box-shadow: 1rem solid black;
+}
+.homePageC .card1 h3 {
+    font-size: 2rem;
+}
+.homePageC hr {
+    border: 0.019rem solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.homePageC .cardFooter {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.homePageC .cardBody p {
+    margin: 1rem 0;
+}
+.homePageC .cardBody {
+    padding: 2rem;
+}
+.homePageC .cardBody .role {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.homePageC .cardFooter p {
+    margin-right: 2rem;
+}
+.homePageC .card2 {
+    background-color: #ff565d;
+    color: white;
+}
+.homePageC .card2 .icon {
+    font-size: 10rem;
+    padding: 1.5rem;
+}
+.homePageC .card2 h3 {
+    padding: 1.5rem;
+}
+.homePageC .card2 .second {
+    margin-bottom: 5rem;
+}
+/* Home Page c Third Row */
+.homePageC .card3 h3 {
+    margin: 2rem 0;
+    color: #ff565d;
+}
+.homePageC .card3 p {
+    margin-bottom: 2rem;
+}
+.homePageC .card3 hr {
+    border: 0.03rem solid black;
+}
+.homePageC .users img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -3rem 0 2rem 40%;
+}
+/* Home Page c Second Row */
+.row {
+    display: flex;
+}
+.homePageC .author .kinga {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+.homePageC .author img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.homePageC .cardBody .author p {
+    margin: 0 0;
+    margin-top: 3rem;
+}
+.homePageC .cardBody .author h3 {
+    margin: 0 0;
+    color: black;
+    font-size: 1.7rem;
+}
+/* Categories */
+/* LeaderShip */
+
+/* Category Page A  */
+
+.flex-container-category {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9fafc;
+}
+
+.flex-container-category > div {
+    width: 35rem;
+    margin: 2rem;
+
+    text-align: left;
+    line-height: 2rem;
+}
+
+.flex-container-category > div h4 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*  Category Page A Second Part */
+.leadership {
+    display: flex;
+}
+.weeklyStories {
+    display: flex;
+    margin-left: 6rem;
+}
+.counting {
+    font-size: 2rem;
+    color: #dadada;
+}
+.featuredStories .weeklyStories .stories {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.featuredStories .weeklyStories hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.featuredStories .categoryTitle {
+    font-size: 5rem;
+    color: black;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: left;
+    margin-left: 6rem;
+}
+/* Category Page B Section*/
+.categoryPageB {
+    position: relative;
+    display: flex;
+}
+.categoryPageBody {
+    position: absolute;
+    background-color: white;
+    margin-top: 22rem;
+    margin-right: 2rem;
+}
+
+.categoryPageBody p:last-child {
+    font-size: 2.5rem;
+}
+.categoryPageBody .categoryPageBodyPart {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.categoryPageTitle .categoryTitle {
+    font-size: 5rem;
+    color: black;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+/* Button */
+.categoryButton {
+    background-color: #ffffff;
+    border: none;
+    color: #f44336;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    width: 19rem;
+    height: 6rem;
+    cursor: pointer;
+    margin-right: 10rem;
+    border: 0.1rem solid black;
+    border-bottom: 0.3rem solid #ff565d;
+
+    margin-top: 15rem;
+}
+.categoryPageTitle {
+    display: flex;
+    justify-content: space-between;
+}
+/* Category Page C Section */
+#categoryPageCSection {
+    margin-top: 5rem;
+}
+.categoryPageC img {
+    width: 100%;
+    height: 60rem;
+}
+
+.categoryPageCBody {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 0.5rem solid red;
+}
+.categoryPageCSection {
+    position: relative;
+}
+.categoryPageCBodyHeading {
+    font-size: 2.5rem;
+}
+.categoryPageCBodyParagraph {
+    margin: 0 7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    margin-left: 2rem;
+    padding: 2rem;
+}
+
+.description p:first-child {
+    color: #fe555a;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.headingDescription h3 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.headingDescription p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.headingDescription hr {
+    border-bottom: 0.5rem solid #fe555a;
+}
+#categoryPageCSection {
+    background-color: #f9fafc;
+}
+/* Category Page D  Section*/
+#categoryPageDSection {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.categoryPageD img {
+    width: 100%;
+    height: 60rem;
+}
+
+.categoryPageDBody {
+    top: 2rem;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-top: 5rem;
+    text-align: left;
+    color: white;
+    border-bottom: 0.5rem solid #ff565d;
+}
+.categoryPageDSection {
+    position: relative;
+}
+.categoryPageDBodyHeading {
+    font-size: 1.5rem;
+    color: #ff565d;
+}
+
+.categoryPageDHero {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.categoryPageDHero .number {
+    color: #ff565d;
+    font-size: 13rem;
+
+    margin-top: 2rem;
+}
+.categoryPageDBody h2 {
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+}
+.categoryButtonD {
+    border: none;
+    color: #f44336;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    width: 19rem;
+    height: 6rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    border: 0.1rem solid white;
+    border-bottom: 0.3rem solid #ff565d;
+}
+.firstItem {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.firstItem h4 {
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.shortDescription {
+    display: flex;
+}
+/* Video Page A Section */
+#videoSection {
+    background-color: #3a3428;
+
+}
+.videoHero {
+    margin: 3rem;
+
+    text-align: center;
+}
+.similarVideoSection {
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.similarVideoTitle {
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-left: 0.2rem;
+}
+.similarVideoTitle hr {
+    margin-top: 1.5rem;
+}
+.firstVideo img {
+    height: 15rem;
+    width: 100%;
+}
+.firstVideo p {
+    padding: 1rem;
+    line-height: 1.8rem;
+}
+.firstVideo {
+    margin-left: 1rem;
+}
+.similarVideo {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+/* Video Page B Section */
+#videoSectionPageB {
+    background-color: #3a3428;
+   
+    display: flex;
+}
+.videoHeroPageB {
+    margin: 3rem;
+
+    margin-left: 10rem;
+}
+.similarVideoSectionPageB {
+  
+    margin-bottom: 1rem;
+  
+    margin-right: 10rem;
+}
+
+.similarVideoTitlePageB {
+    font-size: 1rem;
+    padding: 2rem;
+    margin-left: 0.2rem;
+
+    background-color: white;
+  
+}
+
+
+.firstVideoPageB img {
+    height: 15rem;
+    width: 100%;
+}
+.firstVideoPageB p {
+    
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.firstVideoPageB {
+    margin-left: 1rem;
+}
+.similarVideoPageB {
+    padding: 2rem;
+    background-color: #1e1f24 ;
+}
+.leadership{
+    display: flex;
+    justify-content: space-between;
+}
