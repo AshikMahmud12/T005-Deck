@@ -733,7 +733,6 @@ nav {
 /* Video Page A Section */
 #videoSection {
     background-color: #3a3428;
-
 }
 .videoHero {
     margin: 3rem;
@@ -773,7 +772,7 @@ nav {
 /* Video Page B Section */
 #videoSectionPageB {
     background-color: #3a3428;
-   
+
     display: flex;
 }
 .videoHeroPageB {
@@ -782,9 +781,8 @@ nav {
     margin-left: 10rem;
 }
 .similarVideoSectionPageB {
-  
     margin-bottom: 1rem;
-  
+
     margin-right: 10rem;
 }
 
@@ -794,16 +792,13 @@ nav {
     margin-left: 0.2rem;
 
     background-color: white;
-  
 }
 
-
 .firstVideoPageB img {
-    height: 15rem;
+    height: 12rem;
     width: 100%;
 }
 .firstVideoPageB p {
-    
     line-height: 1.5rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -814,9 +809,247 @@ nav {
 }
 .similarVideoPageB {
     padding: 2rem;
-    background-color: #1e1f24 ;
+    background-color: #1e1f24;
 }
-.leadership{
+.leadership {
     display: flex;
     justify-content: space-between;
 }
+/*  Image Section Page B */
+.imageGalery img {
+    margin-bottom: 2rem;
+}
+/*  Image Section Page A */
+.imagePageA {
+    text-align: center;
+    width: 100%;
+}
+
+.imageGalaryA {
+    background-color: #2f3237;
+}
+.subImage img {
+    width: 100%;
+    height: 3rem;
+}
+.subImagePart:first-child {
+    margin-left: 23rem;
+}
+.subImagePart:last-child {
+    margin-right: 30rem;
+}
+.subImagePart p {
+    color: white;
+    margin-bottom: 2rem;
+}
+.subImagePart {
+    margin-top: 2rem;
+}
+/* Article Page A */
+.articlePageAFirstPart {
+    background-color: #f9fafc;
+}
+.articlePageAFirstPart h1 {
+    color: black;
+    padding-top: 8rem;
+    font-weight: 1000;
+    text-align: left;
+    font-size: 6rem;
+    margin-left: 25%;
+    margin-bottom: 0;
+}
+.JamesLee {
+    display: flex;
+}
+.JamesLee img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-left: 25%;
+    margin-bottom: 3rem;
+}
+.JamesLee p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.articlePageASecondPart {
+    margin-left: 25%;
+    margin-right: 31%;
+    margin-top: 4rem;
+}
+.articlePageASecondPart h5 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.articlePageAFirstImage {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.articlePageAFirstImage img {
+    width: 100%;
+    height: 45rem;
+}
+.articlePageAThirdPart {
+    margin-left: 25%;
+    margin-right: 31%;
+}
+.articlePageAThirdPart hr {
+    margin-top: 2rem;
+}
+.articlePageAFourthPart {
+    margin-left: 25%;
+    margin-right: 33%;
+}
+.articleAHeading {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.articleAHeading h3 {
+    color: black;
+    font-size: 1.8rem;
+}
+.articleAHeading p {
+    color: #ff565d;
+    margin-right: 1.5rem;
+}
+
+.articleADescription p {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+.articleADescription hr {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.articlePageAFifthPart {
+    margin-left: 18%;
+    margin-right: 23%;
+    display: flex;
+}
+.articleARight h3 {
+    font-size: 1.8rem;
+    color: black;
+}
+.articleARight img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+.articleARight {
+    margin-left: 6rem;
+}
+.articleARightAuthor {
+    display: flex;
+}
+.articleARightAuthor h4 {
+    margin-top: 5rem;
+}
+.articlePageASixthPart {
+    background-color: #f9fafc;
+}
+.articlePageASixthPartItem {
+    margin-left: 25%;
+    margin-right: 31%;
+    margin-top: 6rem;
+}
+.jennaBrown {
+    display: flex;
+}
+.jennaBrown img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+.jennaBrown h3 {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+.userComments {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+.userCommentsSection p {
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+}
+.userCommentsSection hr {
+    margin-bottom: 1rem;
+}
+/* Message Section */
+.messageSection {
+    padding: 1rem;
+    display: flex;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+#text {
+    padding: 4rem;
+    width: 60rem;
+}
+.homePageC .articlePageAHeading {
+    color: black;
+    text-align: center;
+}
+/* Article Page B */
+#contactSection{
+    background-color: #ff565d;
+}
+
+
+.contactTeam{
+    color: white;
+    margin-left: 10rem;
+    margin-right: 6rem;
+}
+#name{
+    padding: 2rem;
+    width: 30rem;
+    
+}
+.contactNewsRoom{
+    display: flex;
+}
+
+.contactImage img{
+    height: 50rem;
+    width: 100%;
+}
+.contactTeam p{
+margin-bottom: 4rem;
+}
+.formSection placeholder{
+    background-color: #ff565d ;
+}
+.buttonContact {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
