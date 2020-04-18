@@ -465,10 +465,10 @@ nav {
     margin: -3rem 0 2rem 40%;
 }
 /* Home Page c Second Row */
-.row {
+.homePageCRow {
     display: flex;
 }
-.homePageC .author .kinga {
+.author .kinga {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -477,17 +477,17 @@ nav {
     height: 6rem;
     width: 6rem;
 }
-.homePageC .author img {
+.author img {
     float: left;
     margin-right: 1rem;
     margin-bottom: 2rem;
 }
 
-.homePageC .cardBody .author p {
+.author p {
     margin: 0 0;
     margin-top: 3rem;
 }
-.homePageC .cardBody .author h3 {
+.author h3 {
     margin: 0 0;
     color: black;
     font-size: 1.7rem;
@@ -1011,36 +1011,33 @@ nav {
     color: black;
     text-align: center;
 }
-/* Article Page B */
-#contactSection{
+
+/* Contact Page*/
+#contactSection {
     background-color: #ff565d;
 }
 
-
-.contactTeam{
+.contactTeam {
     color: white;
     margin-left: 10rem;
     margin-right: 6rem;
 }
-#name{
+#name {
     padding: 2rem;
     width: 30rem;
-    
 }
-.contactNewsRoom{
+.contactNewsRoom {
     display: flex;
 }
 
-.contactImage img{
+.contactImage img {
     height: 50rem;
     width: 100%;
 }
-.contactTeam p{
-margin-bottom: 4rem;
+.contactTeam p {
+    margin-bottom: 4rem;
 }
-.formSection placeholder{
-    background-color: #ff565d ;
-}
+
 .buttonContact {
     background-color: black;
     border: none;
@@ -1052,4 +1049,367 @@ margin-bottom: 4rem;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
+.addressSection p {
+    margin-bottom: 1.5rem;
+}
+.address {
+    margin-left: 4rem;
+}
+
+/* Article Page B */
+.articlePageBFirstImage img {
+    width: 100%;
+    height: 40rem;
+}
+
+.articlePageBFirstPart {
+    position: relative;
+}
+
+.articlePageBFirstPartHeading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-items: flex-end;
+    display: flex;
+}
+.articlePageBFirstPartHeading h4 {
+    color: black;
+    font-size: 7rem;
+    margin-left: 15rem;
+
+    margin-bottom: -2.5rem;
+}
+.articlePageBSecondPart {
+    margin-left: 12%;
+    margin-right: 15%;
+}
+.articlePageBSecondPartItem {
+    display: flex;
+}
+.articleBRight h3 {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.articleBRight {
+    margin-left: 6rem;
+}
+
+.articleARightAuthor h4 {
+    margin-top: 5rem;
+}
+.articlePageBSecondPart h4 {
+    margin-bottom: 3rem;
+}
+.articleBWeeklyStories {
+    display: flex;
+    margin-left: 2rem;
+}
+.articleBCounting {
+    font-size: 2rem;
+    color: #dadada;
+    margin-right: 3rem;
+}
+.articleBFeaturedStories .articleBWeeklyStories .articleBStories {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.articleBFeaturedStories .articleBWeeklyStories hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.articleBLeft {
+    width: 90%;
+}
+.articleBSecondImage {
+    margin-left: 12%;
+    margin-right: 15%;
+}
+.articleBSecondImage img {
+    height: 40rem;
+    width: 100%;
+}
+.articlePageBThirdPart {
+    margin-left: 12%;
+    margin-right: 50%;
+    margin-top: 2rem;
+}
+.articlePageBThirdPart hr {
+    margin-top: 3rem;
+}
+.articlePageBThirdPart h4 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+#articlePageBFourthPart {
+    display: flex;
+    margin-left: 12%;
+    margin-top: 2rem;
+}
+.articlePageBFourthPartLeftPart h4 {
+    margin-bottom: 2rem;
+}
+.articlePageBFourthPartLeftPart {
+    margin-right: 12%;
+}
+.articlePageBFourthPartRightPart {
+    margin-right: 6%;
+}
+
+.articlePageBFithPart {
+    background-color: #f9fafc;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+.articlePageBFifthPartItem {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 6rem;
+}
+.dorothy {
+    display: flex;
+}
+.dorothy img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1.5rem;
+}
+.dorothy h3 {
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+.articlePageBUserComments {
+    display: flex;
+}
+.articlePageBUserDescription {
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+}
+.articlePageBUserCommentsSection hr {
+    margin-bottom: 1rem;
+}
+/* Message Section */
+.articlePageBMessageSection {
+    padding: 2rem;
+    background-color: white;
+}
+.articlePageBMessageSection #text {
+    padding: 3rem;
+    width: 55rem;
+}
+
+.articlePageBMessageSection h4 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.articlePageBMessage {
+    display: flex;
+}
+
+.articlePageBButton {
+    border: none;
+    color: Red;
+    text-align: end;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    margin-left: 92%;
+    margin-top: 1rem;
+}
+
+.articlePageBUserComments .date {
+    margin-top: 1.5rem;
+}
+.date {
+    display: flex;
+}
+.date p {
+    margin-left: 0.5rem;
+}
+.date .da {
+    margin-left: 2rem;
+}
+.articlePageBFourthPartRightPart p {
+    margin-left: 20%;
+}
+.articlePageBUserCommentsSection {
+    padding: 2.5rem;
+}
+.articlePageBUserCommentsSection p:first-child {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.articlePageBUserDescription .reply {
+    margin-right: 0.5rem;
+}
+.articlePageBInsideReplySection {
+    margin-left: 10%;
+}
+#articlePageBFithPart {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5rem;
+}
+#articlePageBFithPart h1 {
+    text-align: center;
+    color: black;
+}
+/* Article Page C  */
+.articlePageCFirstImage img {
+    width: 100%;
+    height: 50rem;
+}
+
+.articlePageCFirstPart {
+    position: relative;
+}
+
+.articlePageCFirstPartHeading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 8%;
+}
+.articlePageCFirstPartHeading p:first-child {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.articlePageCFirstPartHeading h4 {
+    color: white;
+    font-size: 5.5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.articleCAuthor {
+    margin-left: 45%;
+    color: white;
+}
+.articleCAuthor h3 {
+    color: white;
+}
+.articlePageCSecondPartItem {
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.articlePageCRightParagraph p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.articlePageCLeftSocialLink {
+    color: gainsboro;
+    margin-right: 18%;
+}
+.articlePageCSecondPartItem {
+    display: flex;
+    margin-top: 3rem;
+}
+.articlePageCSecondPartItem p {
+    margin-bottom: 1rem;
+}
+.articlePageCThirdPart {
+    margin-left: 25%;
+    margin-right: 30%;
+}
+.articlePageCFourthPart {
+    margin-left: 25%;
+    margin-right: 30%;
+}
+.articlePageCFourthPart h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.articlePageCFifthImage img {
+    width: 100%;
+    height: 40rem;
+    opacity: 0.6;
+    background-color: black;
+}
+.articlePageCFifthPart {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.articlePageCFifthPart {
+    position: relative;
+}
+
+.articlePageCFifthPartHeading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 8%;
+}
+.articlePageCFifthPartHeading p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.articlePageCFifthPartHeading h4 {
+    color: white;
+    font-size: 3.5rem;
+
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.articlePageCButtonContact {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.articlePageCFormSection {
+    text-align: center;
+    margin-top: 3rem;
+}
+.articlePageCFifthPartHeading {
+    margin-left: 35%;
+}
+.services-section {
+    text-align: center;
+    background: linear-gradient(rgba(2, 14, 11, 0.9), rgba(9, 10, 10, 0.9)),
+        url(./img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.articleCCategoryPageTitle h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.articlePageCRecommended {
+    margin-bottom: 10rem;
+}
