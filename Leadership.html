@@ -29,35 +29,32 @@
         <header id="home">
             <!-- Nav Section Start -->
             <nav>
-                <div class="headerSection">
-                    <!-- Logo Section Start  -->
-                    <a href="#">
-                        <img
-                            src="./assets/image//logo.png"
-                            alt="cuda"
-                            class="logo"
-                        />
-                    </a>
-                    <!-- Logo Section End  -->
-                    <!-- Nav Main Section Start-->
-                    <ul class="main-nav">
-                        <li>
-                            <a class="active" href="index.html">Technology</a>
-                        </li>
-                        <li><a href="#ideas">Ideas</a></li>
-                        <li><a href="#Leadership.html">Leadership</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="Video.html">Video</a></li>
-                        <li><a href="Finance.html">Finance</a></li>
-                        <li><a href="#entertainment">Entertainment</a></li>
-                    </ul>
-                    <!-- Nav Main Section End-->
-                    <!-- Mobile Menu Section Start  -->
-                    <div class="mobile-menu">
-                        <span>&#9776;</span>
-                    </div>
-                    <!-- Mobile Menu Section End  -->
-                </div>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <label class="logo">Deck</label>
+
+                <!-- Logo Section Start  -->
+
+                <!-- Logo Section End  -->
+                <!-- Nav Main Section Start-->
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li><a href="#ideas">Ideas</a></li>
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- Nav Main Section End-->
+                <!-- Mobile Menu Section Start  -->
+
+                <!-- Mobile Menu Section End  -->
             </nav>
             <!-- Nav Section End -->
         </header>
@@ -284,7 +281,12 @@
                         </div>
 
                         <div class="cardBody categoryPageBody">
-                            <div class="categoryPageBodyPart">
+                            <div class="categoryPageBodyPartFirstParentItem">
+                                <h1>01</h1>
+                            </div>
+                            <div
+                                class="categoryPageBodyPart categoryPageBodyPartFirstItem"
+                            >
                                 <h3 style="color: red;">Entertainment</h3>
                                 <span class="role"
                                     >Advertising On A Budget: <br />Part Three
@@ -314,7 +316,12 @@
                         </div>
 
                         <div class="cardBody categoryPageBody">
-                            <div class="categoryPageBodyPart">
+                            <div class="categoryPageBodyPartFirstParentItem">
+                                <h1>02</h1>
+                            </div>
+                            <div
+                                class="categoryPageBodyPart categoryPageBodyPartFirstItem"
+                            >
                                 <h3 style="color: red;">FINANCE</h3>
                                 <span class="role"
                                     >Five Effective <br />Advertising Tips
@@ -344,7 +351,12 @@
                         </div>
 
                         <div class="cardBody categoryPageBody">
-                            <div class="categoryPageBodyPart">
+                            <div class="categoryPageBodyPartFirstParentItem">
+                                <h1>03</h1>
+                            </div>
+                            <div
+                                class="categoryPageBodyPart categoryPageBodyPartFirstItem"
+                            >
                                 <h3 style="color: red;">TECHNOLOGY</h3>
                                 <span class="role"
                                     >Create Remarkable <br />Poster Prints
@@ -394,8 +406,9 @@
                 <!-- Description Section Start -->
                 <div class="col span_1_of_2 card1">
                     <!-- Technology Section Start -->
+                    <div class="descriptionFirstItem"></div>
                     <div class="description">
-                        <p>Technology</p>
+                        
                         <div class="headingDescription">
                             <h3>
                                 Differentiate Yourself And Attract More
@@ -407,13 +420,15 @@
                                 headline should catch the readers atttention and
                                 makes him read the rest the advertisement
                             </p>
-                            <hr />
+                            <div class="horizontalLine"></div>
+                           
                         </div>
                     </div>
                     <!-- Technology Section End -->
                     <!-- Finance Section Start -->
+                    <div class="descriptionSecondItem"></div>
                     <div class="description">
-                        <p>Finance</p>
+                        
                         <div class="headingDescription">
                             <h3>
                                 Branding: Do You Know Who You Are?
@@ -423,13 +438,14 @@
                                 directly connect to "stargazing",telescopes, and
                                 seeing magnifing displays in the heaven
                             </p>
-                            <hr />
+                            <div class="horizontalLine"></div>
                         </div>
                     </div>
                     <!-- Finance Section End -->
                     <!-- Entertainment Section Start-->
+                    <div class="descriptionThirdItem"></div>
                     <div class="description">
-                        <p>Entertainment</p>
+                       
                         <div class="headingDescription">
                             <h3>
                                 Enhance Your Brand Potential With Giant
@@ -441,7 +457,7 @@
                                 has a greater influence on life on planet Earth
                                 than it's own satellite, the moon
                             </p>
-                            <hr />
+                            <div class="horizontalLine"></div>
                         </div>
                     </div>
                     <!-- Entertainment Section End-->
@@ -484,8 +500,10 @@
             <!-- Short Descriotion Start -->
             <div class="shortDescription">
                 <!-- First Epesode Start -->
-                <div class="firstItem">
-                    <h4>Episode</h4>
+                
+                    <div class="episodeFirstItem"></div>
+                  
+                    <div class="firstItem">
                     <p>
                         There is a lot of exciting stuff going<br />
                         on in the stars above us that <br />makes astronomy so
@@ -494,8 +512,9 @@
                 </div>
                 <!-- First Epesode End-->
                 <!-- Second Epesode Start -->
-                <div class="firstItem">
-                    <h4>Episode</h4>
+                <div class="episodeSecondItem"></div>
+                <div class=" firstItem secondPageCCItem">
+                    
                     <p>
                         There is a lot of exciting stuff going<br />
                         on in the stars above us that <br />makes astronomy so
@@ -504,8 +523,9 @@
                 </div>
                 <!-- Second Epesode End-->
                 <!-- Third Epesode Start -->
-                <div class="firstItem">
-                    <h4>Episode</h4>
+                <div class="episodeThirdItem"></div>
+                <div class="firstItem thirdPageCCItem">
+                    
                     <p>
                         There is a lot of exciting stuff going<br />
                         on in the stars above us that <br />makes astronomy so
@@ -531,73 +551,92 @@
             </div>
             <!-- Footer First Section End -->
             <!-- Footer Second Section Start-->
-            <div class="footerSecond">
-                <ul class="footerNav">
-                    <li><a href="#">TECHNOLOGY</a></li>
-                    <li><a href="#">IDEAS</a></li>
-                </ul>
-            </div>
+            <div class="footerFinalSection">
+                <div class="footerSecondSection">
+                    <div class="footerNavSection">
+                        <div class="footerNavLeft">
+                            <div class="footerSecond">
+                                <ul class="footerNav">
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="#">IDEAS</a></li>
+                                </ul>
+                            </div>
 
-            <!-- Footer Second Section End -->
-            <!-- Footer Third Section Start-->
-            <div class="footerThird">
-                <ul class="footerNav">
-                    <li><a href="#">LEADERSHIP</a></li>
-                    <li><a href="#">VIDEO</a></li>
-                </ul>
-            </div>
-            <!-- Footer Third Section End -->
-            <!-- Footer Fourth Section Start-->
-            <div class="footerFourth">
-                <ul class="footerNav">
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">FINANCE</a></li>
-                </ul>
-            </div>
-            <!-- Footer Fourth Section End -->
-            <!-- Footer Fifth Section Start-->
-            <div class="footerFifth">
-                <ul class="footerNav">
-                    <li><a href="#">ENTERTAINMENT</a></li>
-                </ul>
-            </div>
-            <!-- Footer Fifth Section End -->
-            <!-- Footer Sixth Section Start-->
-            <div class="footerSixth">
-                <div class="footerLast">
-                    <h4>Follow us:</h4>
-
-                    <li>
-                        <a href="#"> <i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
+                            <!-- Footer Second Section End -->
+                            <!-- Footer Third Section Start-->
+                            <div class="footerThird">
+                                <ul class="footerNav">
+                                    <li>
+                                        <a href="leadership.html">LEADERSHIP</a>
+                                    </li>
+                                    <li><a href="video.html">VIDEO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Third Section End -->
+                        <!-- Footer Fourth Section Start-->
+                        <div class="footerNavRight">
+                            <div class="footerFourth">
+                                <ul class="footerNav">
+                                    <li><a href="article.html">ARTICLE</a></li>
+                                    <li><a href="image.html">IMAGE</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Fourth Section End -->
+                            <!-- Footer Fifth Section Start-->
+                            <div class="footerFifth">
+                                <ul class="footerNav">
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="emailSection">
-                    <form action="">
-                        <label for="email"></label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Your E-mail"
-                        />
-                    </form>
-                    <button class="button">Subscribe</button>
-                </div>
-            </div>
+                <!-- Footer Fifth Section End -->
+                <!-- Footer Sixth Section Start-->
+                <div class="footerThirdSection">
+                    <div class="footerSixth">
+                        <div class="footerLast">
+                            <h4>Follow us:</h4>
 
-            <!-- Footer Sixth Section End-->
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fab fa-pinterest-p"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                            </li>
+                        </div>
+
+                        <div class="emailSection">
+                            <form action="">
+                                <label for="email"></label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Your E-mail"
+                                />
+                            </form>
+                            <button class="button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Sixth Section End-->
+            </div>
         </div>
-
         <!-- Footer Section End -->
 
         <!-- JS Script  -->

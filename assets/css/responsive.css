@@ -1,93 +1,275 @@
 @media only screen and (max-width: 1200px) {
- 
     .row {
         margin: 0 15px;
     }
-    .hero-text-box {
-        width: 90%;
-    }
 }
 
-@media only screen and (max-width: 1300px) {
-    .mobile-menu span{
-    display: block;
-    }
-    
-   
-  
-    .main-nav {
-        display: none;
-    }
-    html {
-        font-size: 57.5%;
-    }
-    .client-photo {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .client-review {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .contact-section form {
-        width: 100%;
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 980px) {
-    .span_1_of_4 {
-        width: 49.2%;
-    }
-    .span_1_of_4:nth-child(3) {
-        margin-left: 0;
-    }
-    html {
-        font-size: 32.5%;
-    }
-
-}
-@media only screen and (max-width: 768px) {
-    
-    
-    .little-description {
-        width: 100%;
-        margin-left: 0;
-    }
-    h1 {
-        font-size: 3.4rem;
-    }
-    h2 {
+@media (max-width: 952px) {
+    label.logo {
         font-size: 3rem;
+        padding-left: 3rem;
     }
-    h3 {
+    nav ul li a {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #2c3e50;
+        top: 8rem;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        z-index: 9999999999;
+    }
+    nav ul li {
+        display: block;
+        margin: 1rem 0;
+        line-height: 3rem;
+    }
+    nav ul li a {
         font-size: 2rem;
     }
-}
-@media only screen and (max-width: 480px) {
-    
-    .span_1_of_4 {
-        width: 100%;
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
     }
-    h1 {
-        font-size: 3rem;
+    #check:checked ~ ul {
+        left: 0;
     }
-    h2 {
-        font-size: 2.5rem;
-    }
-    h3 {
-        font-size: 2rem;
-    }
-    .testimonial .col:nth-child(3),
-.testimonial .col:nth-child(4) {
-    margin-top: 4rem;
 }
 
-html {
-    font-size: 72.5%;
+/* Deck  */
+
+@media only screen and (max-width: 414px) {
+    html {
+        font-size: 60.5%;
+    }
+
+    .flex-container img {
+        height: 210px;
+        width: 100%;
+    }
+    /* Contact Section Start*/
+
+    .contactNewsRoom {
+        display: flex;
+
+        flex-direction: column-reverse;
+    }
+    .contactImage img {
+        height: 210px;
+        width: 100%;
+    }
+
+    #name {
+        padding: 2rem;
+        width: 100%;
+    }
+    section {
+        padding: 0;
+    }
+
+    .contactTeam {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .address {
+        margin-left: 0;
+    }
+    .contactTeam h1 {
+        font-size: 4rem;
+    }
+
+    .address h4 {
+        margin-bottom: 2rem;
+    }
+    .workinghour p {
+        margin-top: 2rem;
+    }
+
+    #googleMapSection iframe {
+        width: 100%;
+        height: 350;
+    }
+    /* Contact Section End */
+
+    /* Image Section Start */
+
+    .imagePageA img {
+        height: 25rem;
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+    }
+
+    .subImagePart {
+        margin-right: 1rem;
+    }
+
+    /* Image Section End */
+
+    /* Footer Secton Start */
+
+    #footerSection {
+        display: flex;
+
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .footerSixth {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footerLast {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .emailSection {
+        padding-left: 0rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footerNav li {
+        margin-top: 2rem;
+    }
+
+    .footerSecondSection {
+        display: flex;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        flex-direction: column;
+    }
+    .footerNav li {
+        margin-left: 0rem;
+    }
+    .footerFinalSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footerNavSection {
+        display: flex;
+    }
+    .footerNavLeft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerNavRight {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerNavLeft {
+        margin-left: 0rem;
+        margin-right: 6rem;
+    }
+
+    .footerThird {
+        margin-left: 0rem;
+    }
+
+    .footerNavRight {
+        margin-left: 0rem;
+    }
+
+    .footerFifth {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    /* Footer Section End */
+
+    /* Video Section Start */
+    .videoHero iframe {
+        width: 100%;
+    }
+    #videoSectionPageB {
+        display: flex;
+        flex-direction: column;
+    }
+    #videoSection {
+        margin-bottom: 4rem;
+    }
+
+    .videoHeroPageB {
+        margin: 0rem;
+        margin-left: 0rem;
+    }
+
+    .similarVideo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        width: 37rem;
+        overflow-x: scroll;
+    }
+
+    .similarVideoSection {
+        
+        margin-bottom: 3rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #f9fafc;
+    }
+    .similarVideo img {
+        width: 23rem;
+    }
+
+    #videoSectionPageB {
+        background-color: #f9fafc;
+    }
+    .homePageC .cardBody{
+        background-color: #f9fafc;
+        
+    }
+
+.similarVideoSectionPageB{
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: #f9fafc;
 }
-.footer{
-    display: inline-block;
+
+.similarVideoPageB{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 39rem;
+    overflow-x: scroll;
+    background-color: #f9fafc;
+    
 }
+.similarVideoPageB p{
+    color: black;
+}
+.similarVideoPageB img{
+
+    width: 23rem;
+    }
+
+
 }

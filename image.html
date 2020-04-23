@@ -15,6 +15,7 @@
             rel="stylesheet"
         />
         <!-- Vendors Files -->
+        <link rel="stylesheet" href="./Vendors/css/magnific-popup.css" />
         <link rel="stylesheet" href="./vendors/css/normalize.css" />
         <link rel="stylesheet" href="./vendors/css/grid.css" />
         <link rel="stylesheet" href="./vendors/css/animatedCircle.css" />
@@ -29,76 +30,90 @@
         <header id="home">
             <!-- Nav Section Start -->
             <nav>
-                <div class="headerSection">
-                    <!-- Logo Section Start  -->
-                    <a href="#">
-                        <img
-                            src="./assets/image//logo.png"
-                            alt="cuda"
-                            class="logo"
-                        />
-                    </a>
-                    <!-- Logo Section End  -->
-                    <!-- Nav Main Section Start-->
-                    <ul class="main-nav">
-                        <li>
-                            <a class="active" href="index.html">Technology</a>
-                        </li>
-                        <li><a href="#ideas">Ideas</a></li>
-                        <li><a href="Leadership.html">Leadership</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="Video.html">Video</a></li>
-                        <li><a href="Finance.html">Finance</a></li>
-                        <li><a href="#entertainment">Entertainment</a></li>
-                    </ul>
-                    <!-- Nav Main Section End-->
-                    <!-- Mobile Menu Section Start  -->
-                    <div class="mobile-menu">
-                        <span>&#9776;</span>
-                    </div>
-                    <!-- Mobile Menu Section End  -->
-                </div>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <label class="logo">Deck</label>
+
+                <!-- Logo Section Start  -->
+
+                <!-- Logo Section End  -->
+                <!-- Nav Main Section Start-->
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li><a href="#ideas">Ideas</a></li>
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- Nav Main Section End-->
+                <!-- Mobile Menu Section Start  -->
+
+                <!-- Mobile Menu Section End  -->
             </nav>
             <!-- Nav Section End -->
         </header>
         <!-- End Header Section -->
 
+        <!-- Image Section Page A -->
+        <section id="imageGalaryPageA  image-gallery">
+            <div class="imageGalaryA">
+                <div class="imagePageA">
+                    <img src="./assets/image/ImageGallery-A.jpg" alt="" />
+                </div>
+                <div class="row imageGalaryPageASub img-thumbnail">
+                    <div class="col span_1_of_3 subImagePart">
+                        <div class="subImage">
+                            <h5>01</h5>
+                            <a href="./assets/image/ImageGalleryPageA05.jpg"
+                                ><img
+                                    src="./assets/image/ImageGalleryPageA05.jpg"
+                                    alt=""
+                            /></a>
 
-<!-- Image Section Page A -->
-<section id="imageGalaryPageA">
-<div class="imageGalaryA">
-    <div class="imagePageA">
-        <img src="./assets/image/ImageGallery-A.jpg" alt="">
-
-    </div>
-    <div class="row">
-        <div class="col span_1_of_3 subImagePart">
-    <div class="subImage">
-        <h5>01</h5>
-        <img src="./assets/image/ImageGalery2.jpg" alt="">
-           <h5 style="color: #ff565d;">FINANCE</h5>
-           <p>Compare Prices:Find The Best Computer Accessory</p>
-    </div>
-</div>
-<div class="col span_1_of_3 subImagePart">
-    <div class="subImage">
-        <h5>02</h5>
-        <img src="./assets/image/ImageGalery2.jpg" alt="">
-           <h5 style="color: #ff565d;">VIDEO</h5>
-           <p>Compare Prices:Find The Best Computer Accessory</p>
-    </div>
-</div>
-<div class="col span_1_of_3 subImagePart">
-    <div class="subImage">
-        <h5>03</h5>
-        <img src="./assets/image/ImageGalery2.jpg" alt="">
-           <h5 style="color: #ff565d;">IDEAS</h5>
-           <p>Compare Prices:Find The Best Computer Accessory</p>
-    </div>
-</div>
-</div>
-</div>
-</section>
+                            <h5 style="color: #ff565d;">FINANCE</h5>
+                            <p>
+                                Compare Prices:Find The Best Computer Accessory
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col span_1_of_3 subImagePart">
+                        <div class="subImage">
+                            <h5>02</h5>
+                            <a href="./assets/image/ImageGalleryPageA-04.jpg"
+                                ><img
+                                    src="./assets/image/ImageGalleryPageA-04.jpg"
+                                    alt=""
+                            /></a>
+                            <h5 style="color: #ff565d;">VIDEO</h5>
+                            <p>
+                                Compare Prices:Find The Best Computer Accessory
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col span_1_of_3 subImagePart">
+                        <div class="subImage">
+                            <h5>03</h5>
+                            <a href="./assets/image/ImageGalaryPAgeA-03.jpg"
+                                ><img
+                                    src="./assets/image/ImageGalaryPAgeA-03.jpg"
+                                    alt=""
+                            /></a>
+                            <h5 style="color: #ff565d;">IDEAS</h5>
+                            <p>
+                                Compare Prices:Find The Best Computer Accessory
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Image Section Page B -->
         <!-- flex container Start -->
@@ -305,73 +320,92 @@
             </div>
             <!-- Footer First Section End -->
             <!-- Footer Second Section Start-->
-            <div class="footerSecond">
-                <ul class="footerNav">
-                    <li><a href="#">TECHNOLOGY</a></li>
-                    <li><a href="#">IDEAS</a></li>
-                </ul>
-            </div>
+            <div class="footerFinalSection">
+                <div class="footerSecondSection">
+                    <div class="footerNavSection">
+                        <div class="footerNavLeft">
+                            <div class="footerSecond">
+                                <ul class="footerNav">
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="#">IDEAS</a></li>
+                                </ul>
+                            </div>
 
-            <!-- Footer Second Section End -->
-            <!-- Footer Third Section Start-->
-            <div class="footerThird">
-                <ul class="footerNav">
-                    <li><a href="#">LEADERSHIP</a></li>
-                    <li><a href="#">VIDEO</a></li>
-                </ul>
-            </div>
-            <!-- Footer Third Section End -->
-            <!-- Footer Fourth Section Start-->
-            <div class="footerFourth">
-                <ul class="footerNav">
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">FINANCE</a></li>
-                </ul>
-            </div>
-            <!-- Footer Fourth Section End -->
-            <!-- Footer Fifth Section Start-->
-            <div class="footerFifth">
-                <ul class="footerNav">
-                    <li><a href="#">ENTERTAINMENT</a></li>
-                </ul>
-            </div>
-            <!-- Footer Fifth Section End -->
-            <!-- Footer Sixth Section Start-->
-            <div class="footerSixth">
-                <div class="footerLast">
-                    <h4>Follow us:</h4>
-
-                    <li>
-                        <a href="#"> <i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
+                            <!-- Footer Second Section End -->
+                            <!-- Footer Third Section Start-->
+                            <div class="footerThird">
+                                <ul class="footerNav">
+                                    <li>
+                                        <a href="leadership.html">LEADERSHIP</a>
+                                    </li>
+                                    <li><a href="video.html">VIDEO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Footer Third Section End -->
+                        <!-- Footer Fourth Section Start-->
+                        <div class="footerNavRight">
+                            <div class="footerFourth">
+                                <ul class="footerNav">
+                                    <li><a href="article.html">ARTICLE</a></li>
+                                    <li><a href="image.html">IMAGE</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Fourth Section End -->
+                            <!-- Footer Fifth Section Start-->
+                            <div class="footerFifth">
+                                <ul class="footerNav">
+                                    <li><a href="contact.html">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="emailSection">
-                    <form action="">
-                        <label for="email"></label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Your E-mail"
-                        />
-                    </form>
-                    <button class="button">Subscribe</button>
-                </div>
-            </div>
+                <!-- Footer Fifth Section End -->
+                <!-- Footer Sixth Section Start-->
+                <div class="footerThirdSection">
+                    <div class="footerSixth">
+                        <div class="footerLast">
+                            <h4>Follow us:</h4>
 
-            <!-- Footer Sixth Section End-->
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fab fa-pinterest-p"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                            </li>
+                        </div>
+
+                        <div class="emailSection">
+                            <form action="">
+                                <label for="email"></label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Your E-mail"
+                                />
+                            </form>
+                            <button class="button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Sixth Section End-->
+            </div>
         </div>
-
         <!-- Footer Section End -->
 
         <!-- JS Script  -->
@@ -380,6 +414,7 @@
             src="https://kit.fontawesome.com/2ac4d6ea10.js"
             crossorigin="anonymous"
         ></script>
+        <script src="./Vendors/js/jquery.magnific-popup.min.js"></script>
         <script src="./vendors/js/jquery.waypoints.min.js"></script>
         <script src="./vendors/js/animatedCircle.js"></script>
         <script src="./vendors/js/mixitup.min.js"></script>
