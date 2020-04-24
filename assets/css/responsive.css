@@ -224,52 +224,426 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        width: 37rem;
+        width: 34rem;
         overflow-x: scroll;
     }
 
     .similarVideoSection {
-        
         margin-bottom: 3rem;
         margin-left: 0rem;
         margin-right: 0rem;
         background-color: #f9fafc;
     }
     .similarVideo img {
-        width: 23rem;
+        width: 20rem;
     }
 
     #videoSectionPageB {
         background-color: #f9fafc;
     }
-    .homePageC .cardBody{
+    #videoSectionPageB .homePageC .cardBody {
         background-color: #f9fafc;
-        
     }
 
-.similarVideoSectionPageB{
-    margin-bottom: 3rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    background-color: #f9fafc;
-}
-
-.similarVideoPageB{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    width: 39rem;
-    overflow-x: scroll;
-    background-color: #f9fafc;
-    
-}
-.similarVideoPageB p{
-    color: black;
-}
-.similarVideoPageB img{
-
-    width: 23rem;
+    .similarVideoSectionPageB {
+        margin-bottom: 3rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #f9fafc;
     }
 
+    .similarVideoPageB {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        width: 36rem;
+        overflow-x: scroll;
+        background-color: #f9fafc;
+    }
+    .similarVideoPageB p {
+        color: black;
+    }
+    .similarVideoPageB img {
+        width: 22rem;
+    }
 
+    /* Video Section End */
+
+    /* Leadership Section Start */
+
+    .flex-container-category {
+        flex-direction: column;
+    }
+
+    .leadership {
+        flex-direction: column-reverse;
+        background-color: #f9fafc;
+    }
+
+    .featuredStories .categoryTitle {
+        font-size: 4rem;
+
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+
+        margin-left: 2rem;
+    }
+
+    .weeklyStories {
+        display: flex;
+        margin-left: 2rem;
+    }
+    .stories p {
+        font-size: 1.8rem;
+    }
+
+    .rowFirstImage {
+        width: 100%;
+    }
+    .flex-container-category > div h4 {
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
+
+    .flex-container-category > div {
+        width: 90%;
+        margin-right: 1rem;
+        margin-left: 2rem;
+
+        line-height: 2rem;
+    }
+
+    .categoryPageTitle {
+        flex-direction: column;
+    }
+
+    .categoryPageTitle .categoryTitle {
+        font-size: 4rem;
+        margin-top: 1rem;
+
+        margin-bottom: 3rem;
+
+        margin-left: 2rem;
+    }
+
+    .categoryButton {
+        margin-left: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+
+    .categoryPageB {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categoryPageBImage img {
+        height: 25rem;
+        width: 100%;
+    }
+
+    .homePageC .card1 {
+        margin-bottom: 2rem;
+    }
+
+    .categoryPageBody {
+        margin-right: 0rem;
+    }
+
+    #categoryPageCSection {
+        margin-top: 0rem;
+    }
+
+    .categoryPageCBodyHeading {
+        margin: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .categoryPageCBodyParagraph {
+        margin: 0 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .categoryPageCBody {
+        justify-content: center;
+        margin-top: 10rem;
+    }
+    .categoryPageC img {
+        width: 100%;
+        height: 45rem;
+    }
+
+    .categoryPageC img {
+        opacity: 0.9;
+    }
+
+    .horizontalLine:before {
+        content: "";
+
+        width: 31rem;
+        height: 0.01rem;
+        background: black;
+        position: absolute;
+        left: 0;
+        opacity: 0.1;
+    }
+
+    #categoryPageDSection {
+        margin-top: 5rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .categoryPageD img {
+        width: 100%;
+        height: 64.2rem;
+    }
+
+    .categoryPageDHero {
+        flex-direction: column;
+    }
+
+    .categoryPageDHero .number {
+        color: black;
+        font-size: 0.0001rem;
+        margin-top: 0.5rem;
+    }
+
+    .categoryPageDBodyHeading {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .categoryPageDBody {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .categoryPageDBody h2 {
+        font-size: 4rem;
+    }
+
+    .categoryPageDBodyParagraph {
+        font-size: 1.47rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .categoryButtonD {
+        margin-bottom: 3rem;
+    }
+
+    .shortDescription {
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .episodeSecondItem:before {
+        content: "02";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        opacity: 0.1;
+        font-size: 7rem;
+    }
+
+    .episodeSecondItem:after {
+        content: "Episode";
+        position: absolute;
+        top: 3rem;
+        left: 4rem;
+
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .secondPageCCItem {
+        margin-left: 14rem;
+    }
+
+    .episodeThirdItem:before {
+        content: "03";
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        opacity: 0.1;
+        font-size: 7rem;
+    }
+
+    .episodeThirdItem:after {
+        content: "Episode";
+        position: absolute;
+        top: 3rem;
+        left: 4rem;
+
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .thirdPageCCItem {
+        margin-left: 14rem;
+    }
+
+    /* Leadership Section End */
+
+    /* Home Page Section Start */
+
+    .flex-container > div p {
+        margin-top: 0.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .flex-container > div {
+        margin: 2rem;
+    }
+
+    .flexContainerHomepageB {
+        flex-direction: column;
+    }
+
+    .homePageBSecondPart {
+        flex-direction: column;
+    }
+    .homePageBThirdPart {
+        flex-direction: column-reverse;
+    }
+
+    .homePageBFirstLeftPart {
+        width: 96%;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .homePageBFirstLeftImageBody h5 {
+        margin-left: 32%;
+        margin-top: 20%;
+        margin-bottom: 3rem;
+    }
+
+    .homePageBFirstLeftImageBodyFirstParagraph {
+        display: none;
+    }
+
+    .homePageBFirstLeftImageFooter {
+        margin-left: 12%;
+        margin-top: 30%;
+    }
+
+    .homePageBSecondLeftPart {
+        width: 100%;
+    }
+
+    .counting {
+        margin-right: 2rem;
+    }
+
+    .weeklyStories {
+        margin-right: 7rem;
+    }
+
+    .homePageBFirstLeftImage img {
+        width: 100%;
+        height: 33rem;
+    }
+
+    .homePageBFirstRightPart {
+        margin-top: 2rem;
+        width: 96%;
+        margin-right: 1.5rem;
+    }
+    .homePageBSecondPart {
+        display: flex;
+    }
+    .homePageBSecondLeftPart {
+        width: 100%;
+    }
+
+    .homePageBSecondRightPart {
+        width: 100%;
+        margin: 0rem;
+    }
+    .homePageBThirdPart {
+        display: flex;
+    }
+
+    .homePageBThirdLeftPart {
+        width: 100%;
+        margin-right: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .homePageBThirdRightPart {
+        width: 100%;
+    }
+
+    .homePageBFirstLeftImageBody h5 {
+        margin-left: 0%;
+        margin-top: 12%;
+        margin-bottom: 3rem;
+    }
+
+    .homePageBFirstLeftImageFooter {
+        margin-left: 12%;
+        margin-top: 18%;
+    }
+
+    .homePageBSecondRightMost h2 {
+        text-align: left;
+        padding: 2rem;
+        line-height: 3.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2.3rem;
+    }
+
+    .homePageBSecondRightMost p {
+        line-height: 3.4rem;
+    }
+
+    .homePageC iframe {
+        width: 100%;
+    }
+
+    .card1 {
+        margin-top: 5rem;
+    }
+
+    .cardFooter {
+        margin-bottom: 0rem;
+    }
+
+    .cardFooter {
+        margin-bottom: 2rem;
+    }
+
+    .cardBody p {
+        margin-bottom: 3rem;
+    }
+    .homePageCRow {
+        flex-direction: column;
+    }
+
+    .firstRowSecondImageFooter {
+        margin-left: 0%;
+    }
+
+    .homePageBFirstLeftImage {
+        margin-left: 2rem;
+    }
+
+.homePageBHeroImage img{
+    height: 43rem;
+}
+   
+
+
+
+
+
+
+
+
+
+    /*  Home Page Section End*/
 }
