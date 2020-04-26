@@ -267,6 +267,10 @@
         width: 22rem;
     }
 
+    .videoPageBHomePageC .card1 {
+        margin-bottom: 2rem;
+    }
+
     /* Video Section End */
 
     /* Leadership Section Start */
@@ -483,6 +487,9 @@
     .thirdPageCCItem {
         margin-left: 14rem;
     }
+    .categoryPageBHomePageC .card5 {
+        margin-bottom: 20rem;
+    }
 
     /* Leadership Section End */
 
@@ -638,277 +645,220 @@
 
     /*  Home Page Section End*/
 
-
-
-/* Article Page Section Start */
-
-
-
-
-.articlePageAFirstPart h1 {
-  
-    padding-top: 5rem;
-    font-weight: 1000;
-   
-    font-size: 4rem;
-    margin-left: 5%;
-    margin-bottom: 0;
-}
-
-
-.JamesLee img {
-
-   
-    margin-left: 5%;
-    margin-bottom: 3rem;
-}
-.articlePageASecondPart {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6rem;
-   
-}
-
-.articlePageASecondPart h5 {
-    
-    margin-bottom: 4rem;
-}
-
-.articlePageAFirstImage {
-
-Width:100%;
-
-
-margin-left: 0%;
-}
-
-
-.articlePageAThirdPart {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-.articlePageAFourthPart {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 8rem;
-}
-
-.articlePageAFifthPart {
-display: none;
-}
-
-
-
-#articlePageSectionA{
-    background-color:#f9fafc; 
-}
-
-
-.articlePageASixthPartItem {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 6rem;
-}
-
-#text {
-    padding: 3.5rem;
-    width: 37rem;
-    border: none;
-}
-
-section {
-    padding: 1px;
-}
-
-
-.articlePageBFirstPartHeading h4 {
-    
-    font-size: 4rem;
-    margin-left: 5rem;
-    margin-bottom: -7.5rem;
-}
-
-.articlePageBSecondPart {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20%;
-}
-
-.articleBRight {
-   display: none;
-}
-
-.articleBLeft {
-    width: 100%;
-}
-
-.articleBLeft p:last-child{
-display: none;
-}
-
-.articleBSecondImage {
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-
-.articlePageBThirdPart {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5rem;
-}
-
-.articlePageBFourthPartRightPart {
-    display: none;
-}
-
-.articlePageBFourthPartLeftPart {
-    margin-right: 5%;
-    margin-left: 0%;
-}
-
-
-#articlePageBFourthPart {
-    
-    margin-left: 5%;
-    margin-top: 2rem;
-}
-
-#articlePageBFourthPart p:last-child{
-    display: none;
-}
-
-.articlePageBFourthPartLeftPart h4 {
-    display: none;
-}
-
-.articlePageBFifthPartItem {
-    margin-left: 0%;
-    margin-right: 5%;
-    margin-top: 6rem;
-}
-
-.articlePageBUserComments {
-    flex-direction: column;
-}
-
-.articlePageBUserComments .date {
-    margin-top: 1.5rem;
-    margin-left: 4rem;
-}
-
-
-.articlePageBMessageSection #text {
-    padding: 2.5rem;
-    width: 30rem;
-    border: .01rem solid black;
-}
-
-
-.articlePageCFirstPartHeading h4 {
-   
-    font-size: 4.5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-  
-}
-
-
-.articlePageCFirstPartHeading {
-  
-    margin-top: 16%;
-}
-
-
-.articleCAuthor {
-    margin-left: 25%;
-  margin-right: 25%;
-}
-
-.articlePageCLeftSocialLink {
-  display: none;
-}
-
-
-.articlePageCSecondPartItem {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-.articlePageCThirdPart {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.articlePageCFourthPart {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.articlePageCFourthPart p:last-child{
-    display: none;
-
-}
-
-
-.articlePageCFifthPart {
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.articlePageCFifthPartHeading {
-    margin-left: 5%;
-}
-
-
-.articlePageCFifthPartHeading h4 {
-    
-    font-size: 4.5rem;
-   
-}
-
-.articlePageCFifthPartHeading p {
-  
-    font-size: 1.5rem;
-   
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-}
-
-
-
-.articlePageCFormSection {
-  margin-right: 5%;
-    margin-top: 3rem;
-}
-
-
-.homePageC .card1 {
-    margin-bottom: 20rem;
-}
-
-#articlePageCSecondPart{
-    background-color:#f9fafc ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* Article Page Section End */
-
-
-
-
-
+    /* Article Page Section Start */
+
+    .articlePageAFirstPart h1 {
+        padding-top: 5rem;
+        font-weight: 1000;
+
+        font-size: 4rem;
+        margin-left: 5%;
+        margin-bottom: 0;
+    }
+
+    .JamesLee img {
+        margin-left: 5%;
+        margin-bottom: 3rem;
+    }
+    .articlePageASecondPart {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6rem;
+    }
+
+    .articlePageASecondPart h5 {
+        margin-bottom: 4rem;
+    }
+
+    .articlePageAFirstImage {
+        width: 100%;
+
+        margin-left: 0%;
+    }
+
+    .articlePageAThirdPart {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .articlePageAFourthPart {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8rem;
+    }
+
+    .articlePageAFifthPart {
+        display: none;
+    }
+
+    #articlePageSectionA {
+        background-color: #f9fafc;
+    }
+
+    .articlePageASixthPartItem {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6rem;
+    }
+
+    #text {
+        padding: 3.5rem;
+        width: 37rem;
+        border: none;
+    }
+
+    section {
+        padding: 1px;
+    }
+
+    .articlePageBFirstPartHeading h4 {
+        font-size: 4rem;
+        margin-left: 5rem;
+        margin-bottom: -7.5rem;
+    }
+
+    .articlePageBSecondPart {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+    }
+
+    .articleBRight {
+        display: none;
+    }
+
+    .articleBLeft {
+        width: 100%;
+    }
+
+    .articleBLeft p:last-child {
+        display: none;
+    }
+
+    .articleBSecondImage {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .articlePageBThirdPart {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5rem;
+    }
+
+    .articlePageBFourthPartRightPart {
+        display: none;
+    }
+
+    .articlePageBFourthPartLeftPart {
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+
+    #articlePageBFourthPart {
+        margin-left: 5%;
+        margin-top: 2rem;
+    }
+
+    #articlePageBFourthPart p:last-child {
+        display: none;
+    }
+
+    .articlePageBFourthPartLeftPart h4 {
+        display: none;
+    }
+
+    .articlePageBFifthPartItem {
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-top: 6rem;
+    }
+
+    .articlePageBUserComments {
+        flex-direction: column;
+    }
+
+    .articlePageBUserComments .date {
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .articlePageBMessageSection #text {
+        padding: 2.5rem;
+        width: 27rem;
+        border: 0.01rem solid black;
+    }
+
+    .articlePageCFirstPartHeading h4 {
+        font-size: 4.5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .articlePageCFirstPartHeading {
+        margin-top: 16%;
+    }
+
+    .articleCAuthor {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .articlePageCLeftSocialLink {
+        display: none;
+    }
+
+    .articlePageCSecondPartItem {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .articlePageCThirdPart {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .articlePageCFourthPart {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .articlePageCFourthPart p:last-child {
+        display: none;
+    }
+
+    .articlePageCFifthPart {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .articlePageCFifthPartHeading {
+        margin-left: 5%;
+    }
+
+    .articlePageCFifthPartHeading h4 {
+        font-size: 4.5rem;
+    }
+
+    .articlePageCFifthPartHeading p {
+        font-size: 1.5rem;
+
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .articlePageCFormSection {
+        margin-right: 5%;
+        margin-top: 3rem;
+    }
+
+    .articlePageCRecommended .card1 {
+        margin-bottom: 20rem;
+    }
+
+    #articlePageCSecondPart {
+        background-color: #f9fafc;
+    }
+
+    /* Article Page Section End */
 }

@@ -30,7 +30,24 @@ h1 {
     color: #fff;
 }
 
+
+
+
+
 /* Reusabble Components */
+
+hr{
+    color: 1px solid black;
+    opacity: .1;
+}
+
+
+p {
+    color: #6a6b6f;
+}
+.boxShadow {
+    box-shadow: 3px 3px 10px #dcdada;
+}
 
 .row {
     max-width: 132rem;
@@ -70,12 +87,13 @@ h3 {
 
 /* Sticky Navigation */
 nav {
-    height: 8rem;
     width: 100%;
-
+    padding: 1rem;
     background-color: #0082e6;
     position: sticky;
-    z-index: 999999999;
+    top:10px;
+    z-index: 99999;
+   
 }
 
 label.logo {
@@ -92,6 +110,10 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 8rem;
+}
+
+section {
+    margin: 0 0;
 }
 
 nav ul li a {
@@ -129,6 +151,11 @@ a:hover {
     display: none;
 }
 
+
+
+
+
+
 /* Footer Section Start */
 .footer {
     background-color: black;
@@ -152,7 +179,7 @@ a:hover {
 }
 .footerNav li a {
     text-decoration: none;
-    color: white;
+    color: #f1f1f1;
     font-weight: 250;
 }
 
@@ -367,12 +394,13 @@ a:hover {
 .homePageBFirstLeftImageBodyFirstParagraph {
     margin-left: 15%;
     margin-right: 15%;
+    color: white;
 }
 
 .homePageBFirstLeftImageFooter p {
     margin-right: 1rem;
     display: flex;
-
+    color: white;
     margin-left: 1rem;
 }
 .homePageBFirstLeftImageFooter .mar {
@@ -414,6 +442,7 @@ a:hover {
 /* Second Row First Section */
 .weeklyStories p {
     font-size: 2rem;
+    color: black;
 }
 .stories hr {
     margin-bottom: 2.5rem;
@@ -505,12 +534,14 @@ a:hover {
 .homePageC .card2 .icon {
     font-size: 10rem;
     padding: 1.5rem;
+    color: white;
 }
 .homePageC .card2 h3 {
     padding: 1.5rem;
 }
 .homePageC .card2 .second {
     margin-bottom: 8rem;
+    color: #fff3f2;
 }
 /* Home Page c Third Row */
 .homePageC .card3 h3 {
@@ -552,6 +583,8 @@ a:hover {
 .author p {
     margin: 0 0;
     margin-top: 3rem;
+
+    color: white;
 }
 .author h3 {
     margin: 0 0;
@@ -709,6 +742,7 @@ a:hover {
     margin: 0 7rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    color: #f4f3f1;
 }
 
 .description {
@@ -735,46 +769,35 @@ a:hover {
     border-bottom: 0.5rem solid #fe555a;
 }
 
-.horizontalLine
-{
-text-align:center;
-font-size:40px;
-max-width:600px;
-position:relative;
-margin-top: 2.5rem;
+.horizontalLine {
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+    margin-top: 2.5rem;
 }
-.horizontalLine:before{
-	content:"";
-	
-	width:600px;
-	height:.01rem;
-	background:black;
-	position:absolute;
-     left:0;
-     opacity: .1;
-	 
+.horizontalLine:before {
+    content: "";
+
+    width: 600px;
+    height: 0.01rem;
+    background: black;
+    position: absolute;
+    left: 0;
+    opacity: 0.1;
 }
 
-.horizontalLine:after{
-    content:"";
-	
-	width:100px;
-	height:.1rem;
-	background:black;
-	position:absolute;
-	 left:0;
-	background-color:red;
-     height:.4rem;
-	 
-	 
-	
+.horizontalLine:after {
+    content: "";
+
+    width: 100px;
+    height: 0.1rem;
+    background: black;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    height: 0.4rem;
 }
-
-
-
-
-
-
 
 #categoryPageCSection {
     background-color: #f9fafc;
@@ -934,11 +957,10 @@ margin-top: 2.5rem;
     position: absolute;
     top: 3rem;
     left: 4rem;
-    
+
     font-size: 2.5rem;
     font-weight: bold;
 }
-
 
 .episodeSecondItem {
     position: relative;
@@ -957,12 +979,12 @@ margin-top: 2.5rem;
     position: absolute;
     top: 3rem;
     left: 8rem;
-    
+
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.secondPageCCItem{
+.secondPageCCItem {
     margin-left: 18rem;
 }
 
@@ -983,19 +1005,23 @@ margin-top: 2.5rem;
     position: absolute;
     top: 3rem;
     left: 8rem;
-    
+
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.thirdPageCCItem{
+.thirdPageCCItem {
     margin-left: 18rem;
 }
+
+.categoryPageDBodyParagraph {
+    color: #f4f3f1;
+}
+
 /* Video Page A Section */
 
 #videoSection {
     background-color: #3a3428;
-    
 }
 .videoHero {
     margin: 0rem;
@@ -1081,20 +1107,18 @@ margin-top: 2.5rem;
 }
 /*  Image Section Page B */
 
-.imageGalery{
+.imageGalery {
     margin-top: 7rem;
 }
-
 
 .imageGalery img {
     margin-bottom: 2rem;
 }
 /*  Image Section Page A */
 
-section{
+section {
     padding-top: 0;
 }
-
 
 .imagePageA {
     text-align: center;
@@ -1315,6 +1339,7 @@ section{
 }
 .contactTeam p {
     margin-bottom: 4rem;
+    color: #ffffff;
 }
 
 .buttonContact {
@@ -1693,18 +1718,18 @@ section{
 }
 /* Magnifying Pop Up Start */
 
-.image-gallery{
-    padding:60px 57px;
-    background:#eaeaea;
+.image-gallery {
+    padding: 60px 57px;
+    background: #eaeaea;
 }
 
-.img-thumbnail{
+.img-thumbnail {
     display: flex;
 }
-.img-thumbnail a img{
-    width:100%;
+.img-thumbnail a img {
+    width: 100%;
 }
-.img-thumbnail a{
-    margin:10px;
+.img-thumbnail a {
+    margin: 10px;
 }
 /* Magnifying Pop Up End */
